@@ -1,0 +1,556 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+namespace HelloWold;
+public static class Program     {         
+    public static void Main(string[] arg) {
+    CharieCaravanaInitials();
+            
+        static void CharieCaravanaInitials(){
+                int n=7 ;
+                Console.WriteLine("This Program is created by : ");
+                Console.WriteLine("Charie Caravana");
+                Console.WriteLine("BSIT 2-1");
+                for (int i=1; i<=n;i++){
+                    for(int j=1;j<=n;j++){
+                    if (i==1||i==n||j==1){
+                        Console.Write("*");
+        }
+                else{ Console.Write(" ");
+    }
+}
+                Console.Write(" ");
+               for(int j=1;j<=n;j++){
+               if(i==1||i==n||j==1){
+                   Console.Write("*");
+
+        
+               }
+               else{
+                   Console.Write(" ");
+            }
+            }
+            Console.Write("\n");
+}
+        }    
+        
+        Console.WriteLine("***************************");
+        TimeInOut();
+        static void TimeInOut(){
+    Console.WriteLine("GOOD DAY DEAR EMPLOYEE\n");
+        Console.WriteLine("EMPLOYEES NAME LIST\n");
+    Console.WriteLine("ID # - NAME\n");
+    Console.WriteLine("0001 - Charie D. Caravana\n");
+    Console.WriteLine("0002 - Judylyn Austria\n");
+    Console.WriteLine("0003 - Abbie Alicbusan\n");
+    Console.WriteLine("0004 - Maricel Palomillo\n");
+    Console.WriteLine("0005 - Mary Joy Firmo\n");
+    Console.WriteLine("0006 - Merrygold Lopez\n");
+    Console.WriteLine("0007 - Glizel Larcada\n");
+    Console.WriteLine("0008 - Arshelyn Luna\n");
+    Console.WriteLine("0009 - Jeric Santiago \n");
+    Console.WriteLine("0010 - Andrei Almendral\n");
+    
+    Console.WriteLine("ENTER ID NO: ");
+    int idno =Convert.ToInt32(Console.ReadLine());           
+    if (idno == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime time = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+   Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno1 =Convert.ToInt32(Console.ReadLine());           
+    if (idno1 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno1 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno1 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno1 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno1 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno1 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno1 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno1 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno1 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno1 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime times = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno2 =Convert.ToInt32(Console.ReadLine());           
+    if (idno2 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno2 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno2 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno2 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno2 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno2 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno2 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno2 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno2 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno2 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime tim = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno3 =Convert.ToInt32(Console.ReadLine());           
+    if (idno3 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno3 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno3 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno3 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno3 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno3 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno3 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno3 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno3 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno3 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime ti = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno4 =Convert.ToInt32(Console.ReadLine());           
+    if (idno4 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno4 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno4 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno4 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno4 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno4 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno4 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno4 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno4 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno4 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime t = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno5 =Convert.ToInt32(Console.ReadLine());           
+    if (idno5 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno5 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno5 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno5 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno5 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno5 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno5 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno5 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno5 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno5 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime o = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno6 =Convert.ToInt32(Console.ReadLine());           
+    if (idno6 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno6 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno6 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno6 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno6 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno6 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno6 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno6 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno6 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno6 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime or = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno7 =Convert.ToInt32(Console.ReadLine());           
+    if (idno7 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno7 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno7 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno7 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno7 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno7 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno7 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno7 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno7 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno7 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime ora = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+ Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno8 =Convert.ToInt32(Console.ReadLine());           
+    if (idno8 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno8 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno8 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno8 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno8 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno8 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno8 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno8 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno8 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno8 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime oras = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   
+  Console.WriteLine("******************************");
+  
+  Console.WriteLine("ENTER ID NO: ");
+    int idno9 =Convert.ToInt32(Console.ReadLine());           
+    if (idno9 == 0001)
+            {
+    Console.WriteLine("Good Day!, Ms. Charie D. Caravana");    
+            }
+    if (idno9 == 0002)
+            {
+    Console.WriteLine("Good Day!, Ms. Judylyn Austria");
+            }
+    if (idno9 == 0003)
+            {
+    Console.WriteLine("Good Day!,Ms. Abbie Alicbusan");
+            }
+    if (idno9 == 0004)
+            {
+    Console.WriteLine("Good Day!,Ms. Maricel Palomillo");
+            }
+    if (idno9 == 0005)
+            {
+    Console.WriteLine("Good Day!,Ms. Mary Joy Firmo");
+            }
+    if (idno9 == 0006)
+            {
+    Console.WriteLine("Good Day!,Ms. Merrygold Lopez");
+            }
+    if (idno9 == 0007)
+            {
+    Console.WriteLine("Good Day!,Ms. Gliezel Larcads ");
+            }
+    if (idno9 == 0008)
+            {
+    Console.WriteLine("Good Day!,Ms. Arshelyn Luna");
+            }
+    if (idno9 == 0009)
+            {
+    Console.WriteLine("Good Day!,Mr. Jeric Santiago");
+            }
+    if (idno9 == 0010)
+            {
+    Console.WriteLine("Good Day!,Mr. Andrei Almemdral");
+            }
+    Console.WriteLine("You Have Sign in/out Successfully");
+            Console.WriteLine("Sign in/out Date & Time:");
+   DateTime orass = DateTime.Now;
+   Console.WriteLine(time.ToString("yy-MM-dd,h:mm:ss tt"));
+   Console.WriteLine("EMPLOYEES TIME IN/OUT SUMMATY LIST\n");
+   Console.WriteLine("Employee ID #"+ idno + "Sign In/Out"+(time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno1 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno2 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno3 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno4 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno5 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno6 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno7 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno8 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+   Console.WriteLine("Employee ID #"+ idno9 + "Sign In/Out"+ (time.ToString("\nyy-MM-dd,h:mm:ss tt\n")));
+        }}}
+
+
+
+
